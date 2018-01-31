@@ -1,0 +1,143 @@
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background: rgb(52, 34, 36);
+  color: #fff;
+}
+
+A:link, A:visited, A:active, A:hover { 
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content{
+  color: #fff;
+  margin: 20px;
+  font-size: large;
+  font-family: "Telefon", Sans-Serif;
+}
+
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 6em;
+  font-family: "Telefon", Sans-Serif;
+}
+
+.subtitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Telefon", cursive;
+  margin-top: 20px;
+}
+
+.infopanel{
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 1em;
+  margin: 1em;
+  background: aliceblue;
+  font-size: 75px;
+  color: rgb(52, 34, 36);
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.summary{
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'weathericons';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.eot');
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff2') format('woff2'), url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.ttf') format('truetype'), url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.svg#weather_iconsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.wi {
+  display: inline-block;
+  font-family: 'weathericons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wi-forecast-io-clear-day:before {
+  content: "\f00d";
+}
+.wi-forecast-io-clear-night:before {
+  content: "\f02e";
+}
+.wi-forecast-io-rain:before {
+  content: "\f019";
+}
+.wi-forecast-io-snow:before {
+  content: "\f01b";
+}
+.wi-forecast-io-sleet:before {
+  content: "\f0b5";
+}
+.wi-forecast-io-wind:before {
+  content: "\f050";
+}
+.wi-forecast-io-fog:before {
+  content: "\f014";
+}
+.wi-forecast-io-cloudy:before {
+  content: "\f013";
+}
+.wi-forecast-io-partly-cloudy-day:before {
+  content: "\f002";
+}
+.wi-forecast-io-partly-cloudy-night:before {
+  content: "\f031";
+}
+.wi-forecast-io-hail:before {
+  content: "\f015";
+}
+.wi-forecast-io-thunderstorm:before {
+  content: "\f01e";
+}
+.wi-forecast-io-tornado:before {
+  content: "\f056";
+}
